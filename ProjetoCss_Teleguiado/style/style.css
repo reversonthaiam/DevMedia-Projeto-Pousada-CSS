@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: sans-serif, Geneva, Tahoma;
   margin: 0;
@@ -15,7 +19,7 @@ nav {
   width: 100%;
   position: fixed;
   top: 0;
-  border-bottom: 1px solid #d5d5d5;
+  border-bottom: 3px solid #d5d5d5;
 }
 nav .container {
   display: flex;
@@ -27,7 +31,7 @@ nav .container {
 }
 
 #logo {
-  padding: 10px;
+  padding-top: 20px;
 }
 
 #logo a {
@@ -42,7 +46,7 @@ nav .container {
 }
 
 #menu {
-  padding: 12px;
+  padding-top: 22px;
 }
 
 #menu a {
@@ -50,4 +54,81 @@ nav .container {
   padding-right: 5px;
   font-size: 17px;
   color: #3d3d3d;
+}
+
+/*#############################################*/
+.img-da-section {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../assets/img-fundo.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centralizar-conteudo {
+  text-align: center;
+}
+
+.centralizar-conteudo h1 {
+  font-size: 90px;
+  color: white;
+}
+
+.centralizar-conteudo p {
+  font-size: 50px;
+  color: white;
+}
+
+.formatar-cabecalhos {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  margin: 50px auto;
+}
+
+.formatar-cabecalhos h1 {
+  font-size: 40px;
+}
+
+.formatar-cabecalhos h1 p,
+p {
+  font-size: 20px;
+}
+
+.formatar-card {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.formatar-card-interno {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  max-height: 400px;
+  text-align: center;
+  margin: auto 25px;
+  border-bottom: 2px solid #14ac83;
+}
+
+.formatar-card-interno a {
+  padding-top: 20px;
+  text-decoration: none;
+  font-size: 17px;
+  color: #3d3d3d;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+.mapa {
+  display: flex;
+  justify-content: center;
+}
+
+.mapa iframe {
+  width: 98vw;
+  border: 3px solid #14ac83;
 }
