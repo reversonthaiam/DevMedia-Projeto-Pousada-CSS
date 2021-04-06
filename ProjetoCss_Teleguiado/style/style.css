@@ -132,3 +132,26 @@ p {
   width: 98vw;
   border: 3px solid #14ac83;
 }
+
+.formatar-card2 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.formatar-card-interno2 {
+  display: flex;
+  flex-flow: row wrap;
+  max-width: 750px;
+  max-height: 250px;
+  margin: 30px;
+}
+
+.formatar-card-interno2 img {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.formatar-card-texto {
+  max-width: 550px;
+}
