@@ -155,16 +155,22 @@ p {
   margin-left: 10px;
 }
 
+footer {
+  background-color: #14ac83;
+  margin-top: 50px;
+}
+
 .rodape {
   display: flex;
-  flex-direction: column;
-  background-color: #14ac83;
+  flex-flow: column wrap;
 }
 
 .rodape-contato {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
+  color: #fff;
+  border-bottom: 2px solid #fff;
+  flex-flow: row nowrap;
 }
 
 .rodape-contato2 {
@@ -173,10 +179,12 @@ p {
   margin: auto 30px;
 }
 
-.rodape-contato2 img {
+.rodape-img {
+  margin: auto 20px;
 }
 
 .rodape-autor {
   display: flex;
   justify-content: center;
+  color: #fff;
 }
