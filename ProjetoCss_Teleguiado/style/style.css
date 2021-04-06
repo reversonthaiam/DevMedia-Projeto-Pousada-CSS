@@ -12,6 +12,7 @@ body {
 
 .container {
   max-width: 1024px;
+  margin: 0 auto;
 }
 
 nav {
@@ -135,23 +136,47 @@ p {
 
 .formatar-card2 {
   display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
+  flex-flow: wrap;
+  justify-content: space-between;
 }
 
 .formatar-card-interno2 {
   display: flex;
-  flex-flow: row wrap;
-  max-width: 750px;
-  max-height: 250px;
-  margin: 30px;
+  width: 45%;
+  margin: 0 10px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .formatar-card-interno2 img {
-  max-width: 200px;
-  max-height: 200px;
+  width: 100px;
+  height: 113px;
+  object-fit: cover;
+  margin-left: 10px;
 }
 
-.formatar-card-texto {
-  max-width: 550px;
+.rodape {
+  display: flex;
+  flex-direction: column;
+  background-color: #14ac83;
+}
+
+.rodape-contato {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.rodape-contato2 {
+  display: flex;
+  align-items: center;
+  margin: auto 30px;
+}
+
+.rodape-contato2 img {
+}
+
+.rodape-autor {
+  display: flex;
+  justify-content: center;
 }
