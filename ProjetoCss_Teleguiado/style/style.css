@@ -18,7 +18,7 @@ body {
 nav {
   background-color: #fff;
   width: 100%;
-  position: fixed;
+
   top: 0;
   border-bottom: 3px solid #d5d5d5;
 }
@@ -70,6 +70,10 @@ nav .container {
 
 .centralizar-conteudo {
   text-align: center;
+  background-color: #14ac83;
+  opacity: 0.5;
+  border-radius: 5px;
+  border: 2px solid #fff;
 }
 
 .centralizar-conteudo h1 {
@@ -80,6 +84,7 @@ nav .container {
 .centralizar-conteudo p {
   font-size: 50px;
   color: white;
+  padding: 10px;
 }
 
 .formatar-cabecalhos {
@@ -155,16 +160,22 @@ p {
   margin-left: 10px;
 }
 
+footer {
+  background-color: #14ac83;
+  margin-top: 50px;
+}
+
 .rodape {
   display: flex;
-  flex-direction: column;
-  background-color: #14ac83;
+  flex-flow: column wrap;
 }
 
 .rodape-contato {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
+  color: #fff;
+  border-bottom: 2px solid #fff;
+  flex-flow: row nowrap;
 }
 
 .rodape-contato2 {
@@ -173,10 +184,52 @@ p {
   margin: auto 30px;
 }
 
-.rodape-contato2 img {
+.rodape-img {
+  margin: auto 20px;
 }
 
 .rodape-autor {
   display: flex;
   justify-content: center;
+  color: #fff;
+}
+
+.foto-ilha img {
+  width: 100vw;
+  height: 150px;
+  object-fit: cover;
+}
+
+.formatar-lista {
+  margin-top: 80px;
+}
+
+.titulo-lista {
+  text-align: center;
+}
+
+.conteudo-lista ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.conteudo-lista ul li {
+  margin: 20px;
+}
+
+.formatar-card3 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.formatar-card-interno3 {
+  margin: 5px;
+}
+
+.formatar-card-interno3 img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
 }
