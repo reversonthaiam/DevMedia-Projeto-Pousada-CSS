@@ -193,3 +193,43 @@ footer {
   justify-content: center;
   color: #fff;
 }
+
+.foto-ilha img {
+  width: 100vw;
+  height: 150px;
+  object-fit: cover;
+}
+
+.formatar-lista {
+  margin-top: 80px;
+}
+
+.titulo-lista {
+  text-align: center;
+}
+
+.conteudo-lista ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.conteudo-lista ul li {
+  margin: 20px;
+}
+
+.formatar-card3 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.formatar-card-interno3 {
+  margin: 5px;
+}
+
+.formatar-card-interno3 img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
