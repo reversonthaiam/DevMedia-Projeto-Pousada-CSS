@@ -70,15 +70,16 @@ nav .container {
 
 .centralizar-conteudo {
   text-align: center;
-  background-color: #14ac83;
-  opacity: 0.5;
-  border-radius: 5px;
+  background-color: #0a9077b3; 
+  border-radius: 4px;
   border: 2px solid #fff;
 }
+
 
 .centralizar-conteudo h1 {
   font-size: 90px;
   color: white;
+  opacity: 2;
 }
 
 .centralizar-conteudo p {
@@ -159,7 +160,7 @@ p {
   object-fit: cover;
   margin-left: 10px;
 }
-
+/*############################################################*/
 footer {
   background-color: #14ac83;
   margin-top: 50px;
@@ -193,7 +194,7 @@ footer {
   justify-content: center;
   color: #fff;
 }
-
+/*######################################################*/
 .foto-ilha img {
   width: 100vw;
   height: 150px;
@@ -210,8 +211,9 @@ footer {
 
 .conteudo-lista ul {
   display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
 }
 
 .conteudo-lista ul li {
